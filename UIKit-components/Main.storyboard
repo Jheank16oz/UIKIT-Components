@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NfE-of-rsk">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NfE-of-rsk">
+    <device id="retina6_5" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -36,7 +36,7 @@
                         <sections>
                             <tableViewSection id="LsA-QQ-xSp">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="mRe-wI-ey8">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StackViews" id="mRe-wI-ey8">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mRe-wI-ey8" id="EsM-GP-UXV">
@@ -54,7 +54,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="ejh-A4-BdP"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="" id="ejh-A4-BdP"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="wLM-Ms-FUG">
@@ -63,6 +63,16 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wLM-Ms-FUG" id="Nog-0K-AaW">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nested Stack Views" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tPc-pz-WfW">
+                                                    <rect key="frame" x="128.19811279076271" y="10.666666030883789" width="152.00000000000009" height="20.999999999999773"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="WVW-ua-FUa">
@@ -87,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="-336" y="1317"/>
         </scene>
-        <!--View Controller-->
+        <!--DetailInfo-->
         <scene sceneID="bNJ-db-gfG">
             <objects>
-                <viewController id="btp-YE-BGi" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailInfo" title="DetailInfo" id="btp-YE-BGi" customClass="ViewController" customModule="UIKit_components" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rbf-Ci-UQv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,9 +115,9 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJF-j9-Iwd">
                                         <rect key="frame" x="0.0" y="38" width="398" height="340"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ante augue, euismod a risus sed, pharetra euismod ex. Sed dapibus quis purus ut tempus. Donec nec consequat est. Suspendisse vitae luctus nisi. Duis porttitor, ex nec accumsan consequat, orci justo elementum odio, vitae aliquam erat lorem id dui. Cras nec massa vitae purus condimentum faucibus vel et nisl. Mauris vitae ultricies turpis, eu posuere magna. Vestibulum eget sodales elit, in aliquam augue. Praesent accumsan lobortis mi. Donec pretium erat quis erat pretium commodo. Nulla fringilla, urna non convallis volutpat, ante diam eleifend mauris, ac posuere lectus augue at dolor. Nullam eu nunc suscipit, feugiat libero a, ultricies elit. Aenean vitae ultricies enim, eu venenatis ligula. Aenean sit amet quam varius turpis dignissim molestie. Aliquam luctus urna eget commodo maximus. Suspendisse vitae quam turpis.
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ante augue, euismod a risus sed, pharetra euismod ex. Sed dapibus quis purus ut tempus. Donec nec consequat est. Suspendisse vitae luctus nisi. Duis porttitor, ex nec accumsan consequat, orci justo elementum odio, vitae aliquam erat lorem id dui. Cras nec massa vitae purus condimentum faucibus vel et nisl. Mauris vitae ultricies turpis, eu posuere magna. Vestibulum eget sodales elit, in aliquam augue. Praesent accumsan lobortis mi. Donec pretium erat quis erat pretium commodo. Nulla fringilla, urna non convallis volutpat, ante diam eleifend mauris, ac posuere lectus augue at dolor. Nullam eu nunc suscipit, feugiat libero a, ultricies elit. Aenean vitae ultricies enim, eu venenatis ligula. Aenean sit amet quam varius turpis dignissim molestie. Aliquam luctus urna eget commodo maximus. Suspendisse vitae quam turpis.
 
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" systemColor="secondaryLabelColor"/>
@@ -175,9 +185,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Stack Views" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="always" id="ZnH-hW-6eP">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="info.circle" catalog="system" id="FWy-io-zTu">
+                        <barButtonItem key="rightBarButtonItem" title="StackViewsDetailInfo" image="info.circle" catalog="system" id="FWy-io-zTu">
                             <connections>
-                                <segue destination="btp-YE-BGi" kind="show" id="Qth-bg-mTs"/>
+                                <segue destination="btp-YE-BGi" kind="show" identifier="SequeStackView" destinationCreationSelector="detailInfo:sender:segueIdentifier:" id="Qth-bg-mTs"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
