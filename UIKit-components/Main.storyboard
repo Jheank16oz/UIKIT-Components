@@ -163,10 +163,10 @@
             </objects>
             <point key="canvasLocation" x="1271" y="658"/>
         </scene>
-        <!--Stack Views-->
+        <!--Simple Stack VIew-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIKit_components" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Simple Stack VIew" id="BYZ-38-t0r" customClass="ViewController" customModule="UIKit_components" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rEd-SO-d7Y"/>
                         <viewControllerLayoutGuide type="bottom" id="oAB-gP-SfY"/>
@@ -216,10 +216,10 @@
             </objects>
             <point key="canvasLocation" x="430" y="658"/>
         </scene>
-        <!--View Controller-->
+        <!--Nested Stack View-->
         <scene sceneID="J6f-UB-V0b">
             <objects>
-                <viewController id="ZxV-8M-qb4" sceneMemberID="viewController">
+                <viewController title="Nested Stack View" id="ZxV-8M-qb4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dow-Qx-U2R"/>
                         <viewControllerLayoutGuide type="bottom" id="f9a-zk-zS9"/>
@@ -344,10 +344,10 @@
             </objects>
             <point key="canvasLocation" x="522" y="1296"/>
         </scene>
-        <!--View Controller-->
+        <!--Dynamic Stack View-->
         <scene sceneID="uIW-GP-neb">
             <objects>
-                <viewController id="4Vv-Yt-6Gt" sceneMemberID="viewController">
+                <viewController title="Dynamic Stack View" id="4Vv-Yt-6Gt" customClass="DynamicStackViewController" customModule="UIKit_components" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G2w-WO-KO3"/>
                         <viewControllerLayoutGuide type="bottom" id="4pL-u9-0qj"/>
@@ -366,6 +366,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Add Item"/>
+                                                <connections>
+                                                    <action selector="addEntry:" destination="4Vv-Yt-6Gt" eventType="touchUpInside" id="Cz6-xf-35D"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -385,11 +388,15 @@
                         <constraints>
                             <constraint firstItem="rjV-Yc-1N0" firstAttribute="top" secondItem="zCI-Kr-aCj" secondAttribute="topMargin" id="4hR-Fz-fA3"/>
                             <constraint firstItem="rjV-Yc-1N0" firstAttribute="trailing" secondItem="zCI-Kr-aCj" secondAttribute="trailingMargin" id="60c-g3-EDg"/>
-                            <constraint firstItem="4pL-u9-0qj" firstAttribute="top" secondItem="rjV-Yc-1N0" secondAttribute="bottom" constant="20" id="Tep-nI-eJ0"/>
                             <constraint firstItem="rjV-Yc-1N0" firstAttribute="leading" secondItem="zCI-Kr-aCj" secondAttribute="leadingMargin" id="abw-tT-W99"/>
+                            <constraint firstItem="4pL-u9-0qj" firstAttribute="top" secondItem="rjV-Yc-1N0" secondAttribute="bottom" constant="20" id="okc-eF-s1y"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="phV-wn-QHT"/>
+                    <connections>
+                        <outlet property="scrollView" destination="rjV-Yc-1N0" id="l38-cF-mv5"/>
+                        <outlet property="stackView" destination="oBm-AK-Uo7" id="rOy-Gi-yyi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wL0-dQ-Ofq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
