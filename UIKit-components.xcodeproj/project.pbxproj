@@ -14,7 +14,7 @@
 		3F6B67E527BF1C6E00682C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B67E427BF1C6E00682C7F /* ViewController.swift */; };
 		3F6B67EA27BF1C7100682C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B67E927BF1C7100682C7F /* Assets.xcassets */; };
 		3F6B67ED27BF1C7100682C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B67EB27BF1C7100682C7F /* LaunchScreen.storyboard */; };
-		3F78C9DA27DB904D003C244C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F78C9D927DB904D003C244C /* Main.storyboard */; };
+		3F78C9DA27DB904D003C244C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F78C9D927DB904D003C244C /* Home.storyboard */; };
 		3FAD65B027F4969D006E40B2 /* DynamicStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD65AF27F4969D006E40B2 /* DynamicStackViewController.swift */; };
 		3FFD837327F735A00005013E /* NestedStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD837227F735A00005013E /* NestedStackView.storyboard */; };
 		3FFD837527F735C90005013E /* DynamicStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD837427F735C90005013E /* DynamicStackView.storyboard */; };
@@ -33,7 +33,7 @@
 		3F6B67E927BF1C7100682C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6B67EC27BF1C7100682C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6B67EE27BF1C7100682C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F78C9D927DB904D003C244C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F78C9D927DB904D003C244C /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		3FAD65AF27F4969D006E40B2 /* DynamicStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStackViewController.swift; sourceTree = "<group>"; };
 		3FFD837227F735A00005013E /* NestedStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NestedStackView.storyboard; sourceTree = "<group>"; };
 		3FFD837427F735C90005013E /* DynamicStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DynamicStackView.storyboard; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				3F6B67E027BF1C6E00682C7F /* AppDelegate.swift */,
 				3F6B67E227BF1C6E00682C7F /* SceneDelegate.swift */,
 				3F6B67E427BF1C6E00682C7F /* ViewController.swift */,
-				3F78C9D927DB904D003C244C /* Main.storyboard */,
+				3F78C9D927DB904D003C244C /* Home.storyboard */,
 				3F69FC0727FC7A78003AF788 /* TwoEqualWidthViews.storyboard */,
 				3F69FC0527FC769A003AF788 /* AdaptiveSingleView.storyboard */,
 				3FFD837A27F739D30005013E /* SimpleSingleView.storyboard */,
@@ -157,7 +157,7 @@
 				3F6B67ED27BF1C7100682C7F /* LaunchScreen.storyboard in Resources */,
 				3FFD837327F735A00005013E /* NestedStackView.storyboard in Resources */,
 				3F6B67EA27BF1C7100682C7F /* Assets.xcassets in Resources */,
-				3F78C9DA27DB904D003C244C /* Main.storyboard in Resources */,
+				3F78C9DA27DB904D003C244C /* Home.storyboard in Resources */,
 				3FFD837527F735C90005013E /* DynamicStackView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
