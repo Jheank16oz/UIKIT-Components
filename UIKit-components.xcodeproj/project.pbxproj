@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F69FC0627FC769A003AF788 /* AdaptiveSingleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69FC0527FC769A003AF788 /* AdaptiveSingleView.storyboard */; };
+		3F69FC0827FC7A78003AF788 /* TwoEqualWidthViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69FC0727FC7A78003AF788 /* TwoEqualWidthViews.storyboard */; };
 		3F6B67E127BF1C6E00682C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B67E027BF1C6E00682C7F /* AppDelegate.swift */; };
 		3F6B67E327BF1C6E00682C7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B67E227BF1C6E00682C7F /* SceneDelegate.swift */; };
 		3F6B67E527BF1C6E00682C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B67E427BF1C6E00682C7F /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F69FC0527FC769A003AF788 /* AdaptiveSingleView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdaptiveSingleView.storyboard; sourceTree = "<group>"; };
+		3F69FC0727FC7A78003AF788 /* TwoEqualWidthViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoEqualWidthViews.storyboard; sourceTree = "<group>"; };
 		3F6B67DD27BF1C6E00682C7F /* UIKit-components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6B67E027BF1C6E00682C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F6B67E227BF1C6E00682C7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				3F6B67E227BF1C6E00682C7F /* SceneDelegate.swift */,
 				3F6B67E427BF1C6E00682C7F /* ViewController.swift */,
 				3F78C9D927DB904D003C244C /* Main.storyboard */,
+				3F69FC0727FC7A78003AF788 /* TwoEqualWidthViews.storyboard */,
+				3F69FC0527FC769A003AF788 /* AdaptiveSingleView.storyboard */,
 				3FFD837A27F739D30005013E /* SimpleSingleView.storyboard */,
 				3FFD837827F736170005013E /* DetailInfo.storyboard */,
 				3FFD837627F735EB0005013E /* SimpleStackView.storyboard */,
@@ -143,6 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F69FC0827FC7A78003AF788 /* TwoEqualWidthViews.storyboard in Resources */,
+				3F69FC0627FC769A003AF788 /* AdaptiveSingleView.storyboard in Resources */,
 				3FFD837927F736170005013E /* DetailInfo.storyboard in Resources */,
 				3FFD837B27F739D30005013E /* SimpleSingleView.storyboard in Resources */,
 				3FFD837727F735EB0005013E /* SimpleStackView.storyboard in Resources */,

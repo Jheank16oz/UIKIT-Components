@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DetailInfo-->
+        <scene sceneID="bNJ-db-gfG">
+            <objects>
+                <viewController storyboardIdentifier="DetailInfo" title="DetailInfo" id="btp-YE-BGi" customClass="ViewController" customModule="UIKit_components" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kpd-Y1-IjP"/>
+                        <viewControllerLayoutGuide type="bottom" id="qhA-0M-Iju"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rbf-Ci-UQv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xNh-vB-Hgt">
+                                <rect key="frame" x="8" y="52" width="398" height="802"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUD-AS-3lg">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJF-j9-Iwd">
+                                        <rect key="frame" x="0.0" y="38" width="398" height="340"/>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ante augue, euismod a risus sed, pharetra euismod ex. Sed dapibus quis purus ut tempus. Donec nec consequat est. Suspendisse vitae luctus nisi. Duis porttitor, ex nec accumsan consequat, orci justo elementum odio, vitae aliquam erat lorem id dui. Cras nec massa vitae purus condimentum faucibus vel et nisl. Mauris vitae ultricies turpis, eu posuere magna. Vestibulum eget sodales elit, in aliquam augue. Praesent accumsan lobortis mi. Donec pretium erat quis erat pretium commodo. Nulla fringilla, urna non convallis volutpat, ante diam eleifend mauris, ac posuere lectus augue at dolor. Nullam eu nunc suscipit, feugiat libero a, ultricies elit. Aenean vitae ultricies enim, eu venenatis ligula. Aenean sit amet quam varius turpis dignissim molestie. Aliquam luctus urna eget commodo maximus. Suspendisse vitae quam turpis.
+
+</string>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" systemColor="secondaryLabelColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbX-Ur-DS4">
+                                        <rect key="frame" x="0.0" y="386" width="398" height="416"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xNh-vB-Hgt" secondAttribute="trailing" constant="8" id="19V-cl-i9f"/>
+                            <constraint firstItem="qhA-0M-Iju" firstAttribute="top" secondItem="xNh-vB-Hgt" secondAttribute="bottom" constant="8" id="SVy-LT-Ajg"/>
+                            <constraint firstItem="xNh-vB-Hgt" firstAttribute="leading" secondItem="rbf-Ci-UQv" secondAttribute="leading" constant="8" id="lLk-M7-gV8"/>
+                            <constraint firstItem="xNh-vB-Hgt" firstAttribute="top" secondItem="kpd-Y1-IjP" secondAttribute="bottom" constant="8" id="yUD-LX-hUj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fXB-hq-bHQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XNP-rP-hxF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="833"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

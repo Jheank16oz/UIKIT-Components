@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Jsq-lB-Ys9">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SImple Single View-->
+        <scene sceneID="qv2-a2-8Qu">
+            <objects>
+                <viewController id="Jsq-lB-Ys9" userLabel="SImple Single View" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3M1-jz-nsM"/>
+                        <viewControllerLayoutGuide type="bottom" id="BO4-ug-7e1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M59-6h-FWm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Om2-c3-gdR">
+                                <rect key="frame" x="20" y="108" width="374" height="734"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BO4-ug-7e1" firstAttribute="top" secondItem="Om2-c3-gdR" secondAttribute="bottom" constant="20" id="Nsj-fG-BVz"/>
+                            <constraint firstAttribute="trailing" secondItem="Om2-c3-gdR" secondAttribute="trailing" constant="20" symbolic="YES" id="a06-JS-iZp"/>
+                            <constraint firstItem="Om2-c3-gdR" firstAttribute="top" secondItem="3M1-jz-nsM" secondAttribute="bottom" constant="20" id="gjs-qO-4o9"/>
+                            <constraint firstItem="Om2-c3-gdR" firstAttribute="leading" secondItem="M59-6h-FWm" secondAttribute="leading" constant="20" symbolic="YES" id="t1i-Vp-kjm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XFJ-1p-Zl2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fZB-aT-qGS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="371" y="1048"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
